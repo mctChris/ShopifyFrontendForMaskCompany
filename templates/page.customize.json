@@ -1,0 +1,604 @@
+{
+  "sections": {
+    "1637835473e42f2a8f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_Cover_Banner_cropped.png",
+        "image_mobile": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_Cover_Top_Banner_vM_9441adea-fec9-430e-8ce8-63ca882a0f2e.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "163774454985b9cd1f": {
+      "type": "rich-text",
+      "blocks": {
+        "16377445496002b11d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "現在你都可以創作你的專屬口罩",
+            "heading_size": "h2",
+            "heading_color": "#ffffff",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 2
+          }
+        },
+        "e90a34fb-d7cb-4325-8a41-4ad65585d581": {
+          "type": "text",
+          "settings": {
+            "text": "<p>印花口罩已經成為日常襯衫搭配潮流<br\/>更成為了品牌VI主流應用<br\/>甚至可以為網絡上的KOL、主播、群主、插畫主筆等創造了粉絲互動或變現的工具<br\/><\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        },
+        "d9fc77c9-e35a-4f58-ae5b-91fdce1a4af3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>客製化印花口罩訂製服務<\/strong><\/p>",
+            "text_color": "#fcaded",
+            "link_color": "#000000",
+            "has_text_border": true,
+            "text_border_color": "#ffffff",
+            "text_border_padding": 2
+          }
+        },
+        "c505013b-9e11-4b3a-828f-779f204ef7d6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "客製化印花口罩訂製服務",
+            "heading_size": "h2",
+            "heading_color": "#fcaded",
+            "has_border": true,
+            "border_color": "#a6a1b3",
+            "border_padding": 2
+          }
+        },
+        "ca204969-0ccb-4c88-ae2c-f549b40246cd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>打破傳統幾萬個起訂量限制，OOEVD客製化訂單只需<\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        },
+        "4292a765-6b98-46f7-bc8d-4b21393b5428": {
+          "type": "heading",
+          "settings": {
+            "heading": "每款500個",
+            "heading_size": "h1",
+            "heading_color": "#ffffff",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 0
+          }
+        }
+      },
+      "block_order": [
+        "16377445496002b11d-0",
+        "e90a34fb-d7cb-4325-8a41-4ad65585d581",
+        "d9fc77c9-e35a-4f58-ae5b-91fdce1a4af3",
+        "c505013b-9e11-4b3a-828f-779f204ef7d6",
+        "ca204969-0ccb-4c88-ae2c-f549b40246cd",
+        "4292a765-6b98-46f7-bc8d-4b21393b5428"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 5,
+        "wrapper_padding_bottom": 4,
+        "full_width": true
+      }
+    },
+    "163774767567b80444": {
+      "type": "rich-text",
+      "blocks": {
+        "163774767533e39a87-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>提供香港市面最為普遍的兩種口罩款式<\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "163774767533e39a87-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 0,
+        "wrapper_padding_bottom": 0,
+        "full_width": true
+      }
+    },
+    "16377477124994ad9f": {
+      "type": "rich-text",
+      "blocks": {
+        "ed353045-7b86-4961-9b8d-ffd99ac129c3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>香港製造<br\/>ASTM LEVEL 3<br\/>EN 14683 TYPE IIR \/ EN 149 FFP2<\/strong><br\/><\/p>",
+            "text_color": "#fcaded",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "ed353045-7b86-4961-9b8d-ffd99ac129c3"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 0,
+        "wrapper_padding_bottom": 4,
+        "full_width": true
+      }
+    },
+    "163774778120a85ccd": {
+      "type": "rich-text",
+      "blocks": {
+        "1637747781ecb41805-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>· 三層一次性外科口罩 (3-PLY SURGICAL MASK)<br\/>· KF 韓式立體口罩 (KOREAN-STYLE RESPIRATOR)<br\/><\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "1637747781ecb41805-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 0,
+        "wrapper_padding_bottom": 5,
+        "full_width": true
+      }
+    },
+    "16377479576514254c": {
+      "type": "image-with-text",
+      "blocks": {
+        "163774795727fb8072-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "三層一次性外科口罩",
+            "heading_color": "#ffffff"
+          }
+        },
+        "163774795727fb8072-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "點擊查詢",
+            "button_link": "https:\/\/wa.me\/85237517449?text=你好，我對你們的客製化三層一次性外科口罩感興趣，希望查詢更多資料。",
+            "button_background_color": "#73617d"
+          }
+        }
+      },
+      "block_order": [
+        "163774795727fb8072-0",
+        "163774795727fb8072-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_3-PLY.png",
+        "full_width": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "layout": "image_first"
+      }
+    },
+    "1637748015754ffe28": {
+      "type": "image-with-text",
+      "blocks": {
+        "512955ef-0321-4cc7-b9e3-bb871cd85268": {
+          "type": "heading",
+          "settings": {
+            "heading": "KF 韓式立體口罩",
+            "heading_color": "#ffffff"
+          }
+        },
+        "163774801598aa6b7a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "點擊查詢",
+            "button_link": "https:\/\/wa.me\/85237517449?text=你好，我對你們的客製化KF韓式立體口罩感興趣，希望查詢更多資料。",
+            "button_background_color": "#73617d"
+          }
+        }
+      },
+      "block_order": [
+        "512955ef-0321-4cc7-b9e3-bb871cd85268",
+        "163774801598aa6b7a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_KF.png",
+        "full_width": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "layout": "text_first"
+      }
+    },
+    "1637826365bfc21522": {
+      "type": "rich-text",
+      "blocks": {
+        "163782636402b0dca5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "專業設計團隊",
+            "heading_size": "h2",
+            "heading_color": "#ffffff",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 2
+          }
+        },
+        "163782636402b0dca5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>早在2020年較早時間就參與并帶領了香港口罩印花的開發與發展<br\/>熟悉如何把設計配合口罩製造的全流程和細節<br\/>客戶可以選擇我們的【口罩設計服務】或上傳自己的設計，我們團隊會協助後期輸出<br\/><\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        },
+        "1300986c-e44b-41a8-94d2-0ea13e7f62bb": {
+          "type": "heading",
+          "settings": {
+            "heading": "口罩設計介紹",
+            "heading_size": "h2",
+            "heading_color": "#ffffff",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "163782636402b0dca5-0",
+        "163782636402b0dca5-1",
+        "1300986c-e44b-41a8-94d2-0ea13e7f62bb"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 0,
+        "wrapper_padding_bottom": 0,
+        "full_width": true
+      }
+    },
+    "16381693797ffb284e": {
+      "type": "newsletter",
+      "blocks": {
+        "35975506-fa8f-46cc-99f6-c6078da64308": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>歡迎下載口罩設計指引及 PSD 模版文檔<\/p>"
+          }
+        },
+        "163816937938204f4c-2": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "35975506-fa8f-46cc-99f6-c6078da64308",
+        "163816937938204f4c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "vertical_margin": 2,
+        "horizontal_margin": 2,
+        "background_color": "#2f2c30",
+        "text_color": "#ffffff"
+      }
+    },
+    "164506323765487efd": {
+      "type": "buttons",
+      "blocks": {
+        "5b413130-1b5d-4990-995b-d57728054ad4": {
+          "type": "button",
+          "settings": {
+            "text": "Surgical Mask Design Guide (L).pdf",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0603\/9371\/7992\/files\/L.pdf?v=1637918092",
+            "text_color": "#fcaded",
+            "button_background_color": "#2f2c30",
+            "horizontal_padding": 2,
+            "vertical_padding": 0,
+            "horizontal_margin": 2,
+            "vertical_margin": 0
+          }
+        },
+        "104badde-f31c-419b-a3be-2c8fd8a28b31": {
+          "type": "button",
+          "settings": {
+            "text": "Surgical Mask PSD Template (L).psd",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0603\/9371\/7992\/files\/Surgical_Mask_L_AW_Template_v1.psd?v=1636961515",
+            "text_color": "#fcaded",
+            "button_background_color": "#2f2c30",
+            "horizontal_padding": 2,
+            "vertical_padding": 0,
+            "horizontal_margin": 2,
+            "vertical_margin": 0
+          }
+        }
+      },
+      "block_order": [
+        "5b413130-1b5d-4990-995b-d57728054ad4",
+        "104badde-f31c-419b-a3be-2c8fd8a28b31"
+      ],
+      "settings": {
+        "background_color": "#2f2c30",
+        "position": "center"
+      }
+    },
+    "1645064751afac3539": {
+      "type": "buttons",
+      "blocks": {
+        "b0fc5648-6c00-4956-9806-8abfb5bf5fd1": {
+          "type": "button",
+          "settings": {
+            "text": "KF Mask Design Guide.pdf",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0603\/9371\/7992\/files\/KF.pdf?v=1637918092",
+            "text_color": "#fcaded",
+            "button_background_color": "#2f2c30",
+            "horizontal_padding": 2,
+            "vertical_padding": 0,
+            "horizontal_margin": 2,
+            "vertical_margin": 0
+          }
+        },
+        "d854feb8-111a-4450-810e-0a961a078fab": {
+          "type": "button",
+          "settings": {
+            "text": "KF Mask PSD Template.psd",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0603\/9371\/7992\/files\/KF_Mask_AW_Template_v1.psd.zip?v=1636964626",
+            "text_color": "#fcaded",
+            "button_background_color": "#2f2c30",
+            "horizontal_padding": 2,
+            "vertical_padding": 0,
+            "horizontal_margin": 2,
+            "vertical_margin": 0
+          }
+        }
+      },
+      "block_order": [
+        "b0fc5648-6c00-4956-9806-8abfb5bf5fd1",
+        "d854feb8-111a-4450-810e-0a961a078fab"
+      ],
+      "settings": {
+        "background_color": "#2f2c30",
+        "position": "center"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1637826547478c4a6d": {
+      "type": "rich-text",
+      "blocks": {
+        "55e0a4c3-f2b8-47cf-b619-cb28cc43cd4c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>突破全港所有口罩廠MOQ(最低產量)，OOEVD客製化印花口罩500個起訂<br\/>三層一次性外科口罩最低訂購價<br\/><\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 0
+          }
+        },
+        "6a489442-3fa9-4a2f-9af1-c5815fc072c0": {
+          "type": "heading",
+          "settings": {
+            "heading": "低至$2.64*",
+            "heading_size": "h1",
+            "heading_color": "#fcaded",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 0
+          }
+        },
+        "a260cadc-e78f-470d-b5ce-bf65337d93e3": {
+          "type": "heading",
+          "settings": {
+            "heading": "客製化服務價目表",
+            "heading_size": "h2",
+            "heading_color": "#ffffff",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 0
+          }
+        }
+      },
+      "block_order": [
+        "55e0a4c3-f2b8-47cf-b619-cb28cc43cd4c",
+        "6a489442-3fa9-4a2f-9af1-c5815fc072c0",
+        "a260cadc-e78f-470d-b5ce-bf65337d93e3"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 5,
+        "wrapper_padding_bottom": 2,
+        "full_width": true
+      }
+    },
+    "1641702839fefd4e93": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Cux_WP_Linked-img-001_v2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Cux_WP_Linked-img-002_v2.jpg",
+        "background_color": "#2f2c30",
+        "position": "center"
+      }
+    },
+    "1637826852cd150fcc": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Cux_WP_Linked-img-001_v2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/OOEVD_Cux_WP_Linked-img-002_v2.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "16378269865dc9b690": {
+      "type": "rich-text",
+      "blocks": {
+        "1637826986fa3dc8ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "落單流程",
+            "heading_size": "h2",
+            "heading_color": "#ffffff",
+            "has_border": false,
+            "border_color": "#000000",
+            "border_padding": 0
+          }
+        }
+      },
+      "block_order": [
+        "1637826986fa3dc8ef-0"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 2,
+        "wrapper_padding_bottom": 0,
+        "full_width": true
+      }
+    },
+    "163782861343861650": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Cux_WP_Linked-img-003_v2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Cux_WP_Linked-img-004_v2.jpg",
+        "background_color": "#2f2c30",
+        "position": "center"
+      }
+    },
+    "16378296074edaf848": {
+      "type": "buttons",
+      "blocks": {
+        "243f427e-8148-42e0-a9d0-02406c9afc67": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "立即落單",
+            "link": "shopify:\/\/products\/customize",
+            "text_color": "#ffffff",
+            "button_background_color": "#73617d",
+            "horizontal_padding": 5,
+            "vertical_padding": 1,
+            "horizontal_margin": 2,
+            "vertical_margin": 2
+          }
+        },
+        "5d26f603-c1e5-4335-b81f-03958d35598e": {
+          "type": "button",
+          "settings": {
+            "text": "聯絡客服",
+            "link": "https:\/\/wa.me\/85237517449?text=你好，我對你們的客製化印花口罩服務感興趣，希望查詢更多資料。",
+            "text_color": "#ffffff",
+            "button_background_color": "#73617d",
+            "horizontal_padding": 5,
+            "vertical_padding": 1,
+            "horizontal_margin": 2,
+            "vertical_margin": 2
+          }
+        }
+      },
+      "block_order": [
+        "243f427e-8148-42e0-a9d0-02406c9afc67",
+        "5d26f603-c1e5-4335-b81f-03958d35598e"
+      ],
+      "settings": {
+        "background_color": "#2f2c30",
+        "position": "center"
+      }
+    },
+    "1637920582622d7574": {
+      "type": "rich-text",
+      "blocks": {
+        "1637920582c95b371e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>OOEVD(搭配類產品品牌)是我們團隊發展網絡科技項目中一個B端角色的模型。<br\/>我們不是工廠，我們只是連接優質的工廠，探索突破傳統製造業的固有模式和思維。<br\/><\/p><p>產品同質化、產能過剩;鬥品牌、爭市場、最後價格戰，慘不忍睹.<br\/>這些情況都在不同的商品行業當中發生過或正在發生。<br\/><\/p><p>其實數碼印刷、3D打印、人工智能等工業發展，<br\/>都是從過去的單一標準規模化轉換成多樣即時靈活化。<br\/><\/p><p>我們認為接下來的商品市場，必須要把商品植入消費者的靈魂，把消費者或其追隨者<br\/>獨有的元素、興趣、喜好投放到觸發購買的條件中。<br\/><br\/>因此，POD (produce on demand) 將會是很多新型製造商誕生的主要方向。<br\/><\/p><p>更多的產品或商務合作，請與我們團隊聯絡<br\/><strong>T. <\/strong><a href=\"tel:85237517449\" title=\"tel:85237517449\"><strong>+852 37517449<\/strong><\/a><strong> \/ E. <\/strong><a href=\"mailto:cs@ooevd.com\" title=\"mailto:cs@ooevd.com\"><strong>cs@ooevd.com<\/strong><\/a><\/p>",
+            "text_color": "#ffffff",
+            "link_color": "#fcaded",
+            "has_text_border": true,
+            "text_border_color": "#ffffff",
+            "text_border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "1637920582c95b371e-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#2f2c30",
+        "wrapper_padding_top": 2,
+        "wrapper_padding_bottom": 6,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1637835473e42f2a8f",
+    "163774454985b9cd1f",
+    "163774767567b80444",
+    "16377477124994ad9f",
+    "163774778120a85ccd",
+    "16377479576514254c",
+    "1637748015754ffe28",
+    "1637826365bfc21522",
+    "16381693797ffb284e",
+    "164506323765487efd",
+    "1645064751afac3539",
+    "main",
+    "1637826547478c4a6d",
+    "1641702839fefd4e93",
+    "1637826852cd150fcc",
+    "16378269865dc9b690",
+    "163782861343861650",
+    "16378296074edaf848",
+    "1637920582622d7574"
+  ]
+}

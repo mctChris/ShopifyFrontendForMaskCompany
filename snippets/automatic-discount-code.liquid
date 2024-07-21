@@ -1,0 +1,70 @@
+<script>
+// automatically apply discount code based on conditions
+var login = '{{ customer.id }}' ? true : false;
+var role = function(login) {
+	if (login && {{ customer.tags | json }}.some(t => t.includes('wholesale'))) return 'wholesaler';
+	
+	return 'customer';
+}(login);
+
+// init on page load 
+applyDiscountCode(role);
+
+// reinit on page update
+var total = document.querySelector('.cart__footer .js-contents');
+var observer = new MutationObserver(function (mutation) {
+  if (mutation[0].addedNodes.length > 0) applyDiscountCode(role);
+});
+observer.observe(total, { childList: true });
+
+
+async function applyDiscountCode(role) {
+	if (role === 'wholesaler') {
+		var tags = {{ customer.tags | json }};
+		var code = await selectWholesaleCode(tags);
+
+		if (shouldApplyCode(code)) return applyCode(code);
+	}
+
+	if (role === 'customer') {
+		var code = "任何款式滿30個即享75折";
+		var itemCount = await getItemCount();
+		var threshold = 30;
+
+		if (itemCount >= threshold && shouldApplyCode(code)) return applyCode(code);
+	}
+}
+
+async function selectWholesaleCode(tags) {
+	// var itemCount = {{ cart.item_count }};
+	var itemCount = await getItemCount();
+	var final;
+
+	tags.forEach(tag => {
+		var threshold = Number(tag.split('-')[0].replace('wholesale', ""));
+
+		if (itemCount >= threshold) {
+		  final = tag;
+		}
+	})
+
+	return final;
+}
+
+function getItemCount() {
+	var count = fetch('/cart.json').then(res => res.json()).then(data => data.item_count);
+
+	return count;
+}
+
+function applyCode(code) {
+	return location = `/discount/${code}?redirect=/cart`;
+}	
+
+function shouldApplyCode(code) {
+	var code = encodeURI(code);
+	if (document.cookie.includes(code)) return false;
+
+	return true;
+}
+</script>

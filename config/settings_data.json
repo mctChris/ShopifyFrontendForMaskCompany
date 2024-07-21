@@ -1,0 +1,181 @@
+{
+  "current": {
+    "product_id_font_size": 12,
+    "notice_color": "#fcaded",
+    "notice_font_size": 14,
+    "designer_font_size": 12,
+    "symbol_color": "#9568c6",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#444444",
+    "colors_accent_2": "#9568c6",
+    "colors_text": "#444444",
+    "colors_outline_button_labels": "#666666",
+    "colors_background_1": "#fafafa",
+    "gradient_background_1": "",
+    "colors_background_2": "#fff",
+    "type_header_font": "avenir_next_n4",
+    "type_body_font": "avenir_next_n3",
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "page_width": "1600",
+    "social_facebook_link": "https:\/\/www.facebook.com\/OOEVD\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/OOEVD_hk\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/ooevd_hk\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCDTLalKBmItRRWllguPLpSg",
+    "predictive_search_enabled": false,
+    "favicon": "shopify:\/\/shop_images\/ooevd-icon-v01.png",
+    "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/ooevd-icon-v01.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#fafafa",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "outfit of everyday | ！！！購物滿$400全港順豐包運費！！！",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/ooevd-logo-v01.png",
+          "logo_width": 140,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "outfit of everyday",
+              "subtext": "<p><br\/>襯衫戴個靚口罩，天天都有好心情<br\/>boost your mood by outfit of everyday<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": false,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "1634712140906793e7": {
+        "type": "shopify:\/\/apps\/ysd-whatsapp-chat-button\/blocks\/app-embed\/c2286acb-9e94-4b67-a53a-7046abc8e849",
+        "disabled": false,
+        "settings": {}
+      },
+      "1635129164940d5b5b": {
+        "type": "shopify:\/\/apps\/shop-instagram-ugc\/blocks\/block.embed.socialshopwave-helper\/af4b13c8-5fdf-4065-8045-d1fe22f45f5a",
+        "disabled": false,
+        "settings": {}
+      },
+      "10436698916776057164": {
+        "type": "shopify:\/\/apps\/appstle-subscriptions\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
+  }
+}

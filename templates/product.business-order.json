@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product-business-order",
+      "blocks": {
+        "fddf49dd-cc97-4679-a8ee-1e10d8030e8f": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "fddf49dd-cc97-4679-a8ee-1e10d8030e8f"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "其他熱門款式",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1635301261cf8ece16": {
+      "type": "apps",
+      "blocks": {
+        "dce9dfcc-d99d-45f4-94a7-26ce231cc265": {
+          "type": "shopify:\/\/apps\/shop-instagram-ugc\/blocks\/block.index.instagram\/af4b13c8-5fdf-4065-8045-d1fe22f45f5a",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "2"
+          }
+        }
+      },
+      "block_order": [
+        "dce9dfcc-d99d-45f4-94a7-26ce231cc265"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "1635301261cf8ece16"
+  ]
+}

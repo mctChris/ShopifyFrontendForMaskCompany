@@ -1,0 +1,180 @@
+<div class="mt-50px" data-section-id="{{ section.id }}" data-section-type="section-video-v1">
+  <div class="box-video">
+  
+    {% assign desktopVideoHeight = section.settings.desktop_video_height %}
+
+    {% case desktopVideoHeight %}
+      {% when 'small' %}
+        {% assign desktopVideoHeightClass = 'desktop-video-height-small' %}
+      {% when 'medium' %}
+        {% assign desktopVideoHeightClass = 'desktop-video-height-medium' %}
+      {% when 'large' %}
+        {% assign desktopVideoHeightClass = 'desktop-video-height-large' %}
+    {% endcase %}
+
+    {% assign mobileVideoHeight = section.settings.mobile_video_height %}
+
+    {% case mobileVideoHeight %}
+      {% when 'small' %}
+        {% assign mobileVideoHeightClass = 'mobile-video-height-small' %}
+      {% when 'medium' %}
+        {% assign mobileVideoHeightClass = 'mobile-video-height-medium' %}
+      {% when 'large' %}
+        {% assign mobileVideoHeightClass = 'mobile-video-height-large' %}
+    {% endcase %}
+
+    <video class="full-width-video {{ desktopVideoHeightClass }} {{ mobileVideoHeightClass }}" width="100%" height="auto" {% if section.settings.control %}controls{% endif %} {% if section.settings.autoplay %}autoplay{% endif %} {% if section.settings.mute %}muted{% endif %} {% if section.settings.loop %}loop{% endif%} playsinline {% if section.settings.video_poster != blank %}poster="{{ section.settings.video_poster | img_url: 'master' }}"{% endif %}>
+      <source src="{{ section.settings.video_url }}" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Full width video",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Display Full Width Video"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video Url",
+      "info": "[Upload video .mp4 in here](/admin/settings/files)"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_poster",
+      "label": "Video poster"
+    },
+    {
+       "type": "select",
+       "id": "desktop_video_height",
+       "label": "Desktop video height",
+       "options": [
+         {
+           "group": "height",
+           "value": "natural",
+           "label": "Natural"
+         },
+         {
+           "group": "height",
+           "value": "small",
+           "label": "Small"
+         },
+         {
+           "group": "height",
+           "value": "medium",
+           "label": "Medium"
+         },
+         {
+           "group": "height",
+           "value": "large",
+           "label": "Large"
+         }
+       ],
+       "default": "natural"
+    },
+    {
+       "type": "select",
+       "id": "mobile_video_height",
+       "label": "Mobile video height",
+       "options": [
+         {
+           "group": "height",
+           "value": "natural",
+           "label": "Natural"
+         },
+         {
+           "group": "height",
+           "value": "small",
+           "label": "Small"
+         },
+         {
+           "group": "height",
+           "value": "medium",
+           "label": "Medium"
+         },
+         {
+           "group": "height",
+           "value": "large",
+           "label": "Large"
+         }
+       ],
+       "default": "natural"
+    },    
+    {
+       "type": "checkbox",
+       "id": "autoplay",
+       "label": "Video plays automatically",
+       "default": false,
+       "info": "On mobile device, only muted video can be autoplayed."
+    },
+    {
+       "type": "checkbox",
+       "id": "mute",
+       "label": "Mute video",
+       "default": false
+    },    
+    {
+       "type": "checkbox",
+       "id": "control",
+       "label": "Video has control panel",
+       "default": false
+    },
+    {
+       "type": "checkbox",
+       "id": "loop",
+       "label": "Video loops",
+       "default": false
+    }        
+  ],
+  "presets": [
+    {
+      "name": "Full width video",
+      "category": "Video"
+    }
+  ]  
+}
+{% endschema %}
+
+
+<style type="text/css">
+.mt-50 {
+  margin-top: 50px;
+}
+
+.desktop-video-height-small {
+  object-fit: cover;
+  height: 500px;  
+}
+
+.desktop-video-height-medium {
+  object-fit: cover;
+  height: 750px;  
+}
+
+.desktop-video-height-large {
+  object-fit: cover;
+  height: 1000px;  
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-video-height-small {
+    object-fit: cover;
+    height: 350px;
+  }
+
+  .mobile-video-height-medium {
+    object-fit: cover;
+    height: 450px;
+  }
+
+  .mobile-video-height-large {
+    object-fit: cover;
+    height: 550px;
+  }    
+} 
+</style>

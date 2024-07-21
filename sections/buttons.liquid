@@ -1,0 +1,127 @@
+<div style="text-align: {{ section.settings.position }}; background-color: {{ section.settings.background_color }}">
+	{% for block in section.blocks %}
+
+		{% if block.settings.link != blank %}
+		<a href="{{ block.settings.link }}" style="text-decoration: none;">
+		{% endif %}
+			<div class="button-group" style="
+			color: {{ block.settings.text_color }}; background-color: {{ block.settings.button_background_color }}; padding: {{ block.settings.vertical_padding }}rem {{ block.settings.horizontal_padding }}rem; margin: {{ block.settings.vertical_margin }}rem {{ block.settings.vertical_margin }}rem; display: inline-block;
+			">{{ block.settings.text }}</div>
+
+
+		{% if block.settings.link != blank %}
+		</a>
+		{% endif %}
+
+	{% endfor %}
+</div>
+
+
+{% schema %}
+{
+	"name": "Buttons",
+	"settings": [
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background color",
+          "default": "#000000"
+        },
+	    {
+	      "type": "select",
+	      "id": "position",
+	      "options": [
+	        {
+	          "value": "center",
+	          "label": "Center"
+	        },
+	        {
+	          "value": "left",
+	          "label": "Left"
+	        },
+	        {
+	          "value": "right",
+	          "label": "Right"
+	        }
+	      ],
+	      "default": "center",
+	      "label": "Position"
+	    }           
+	],
+	"blocks": [
+		{
+			"type": "button",
+			"name": "button",
+			"settings": [
+				{
+					"type": "text",
+					"id": "text",
+					"label": "Text"
+				},
+				{
+				  "type": "url",
+				  "id": "link",
+				  "label": "Link"
+				},	
+		        {
+		          "type": "color",
+		          "id": "text_color",
+		          "label": "Text color",
+		          "default": "#000000"
+		        },				
+		        {
+		          "type": "color",
+		          "id": "button_background_color",
+		          "label": "Background color",
+		          "default": "#000000"
+		        },
+		        {
+		          "type": "range",
+		          "id": "horizontal_padding",
+		          "min": 0,
+		          "max": 8,
+		          "step": 1,
+		          "unit": "rem",
+		          "label": "Horizontal padding",
+		          "default": 2
+		        },
+		        {
+		          "type": "range",
+		          "id": "vertical_padding",
+		          "min": 0,
+		          "max": 8,
+		          "step": 1,
+		          "unit": "rem",
+		          "label": "Vertical padding",
+		          "default": 2
+		        },
+		        {
+		          "type": "range",
+		          "id": "horizontal_margin",
+		          "min": 0,
+		          "max": 8,
+		          "step": 1,
+		          "unit": "rem",
+		          "label": "Horizontal margin",
+		          "default": 2
+		        },
+		        {
+		          "type": "range",
+		          "id": "vertical_margin",
+		          "min": 0,
+		          "max": 8,
+		          "step": 1,
+		          "unit": "rem",
+		          "label": "Vertical margin",
+		          "default": 2
+		        } 		        	            
+			]
+		}
+	],
+	"presets": [
+		{
+		  "name": "Buttons"
+		}
+	]	
+}
+{% endschema %}

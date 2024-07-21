@@ -1,0 +1,583 @@
+{
+  "sections": {
+    "16360098101c739a37": {
+      "type": "slider",
+      "blocks": {
+        "4f2460b0-4273-414d-8fb1-13ab28c8fabc": {
+          "type": "image-slide",
+          "settings": {
+            "desktop_slide": "shopify:\/\/shop_images\/Discord_Top_Banner.jpg",
+            "mobile_slide": "shopify:\/\/shop_images\/Discord_Top_Banner_M.jpg",
+            "link": "https:\/\/discord.gg\/CEJDvcz6Aw",
+            "alt": ""
+          }
+        },
+        "f4534c25-babf-4f8b-b890-00c84438b837": {
+          "type": "video-slide",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0603\/9371\/7992\/files\/FinalVideo_1637989747.024370.mp4?v=1637992927",
+            "video_autoplay": true
+          }
+        },
+        "994ab1e5-801a-4801-8ba0-ac41671b5cac": {
+          "type": "image-slide",
+          "settings": {
+            "desktop_slide": "shopify:\/\/shop_images\/OOEVD_Banner_20220214.jpg",
+            "mobile_slide": "shopify:\/\/shop_images\/OOEVD_Banner_20220214_M.jpg",
+            "link": "shopify:\/\/products\/set-of-40-pick",
+            "alt": ""
+          }
+        },
+        "15f55b0d-ff08-4e6a-bf22-0fd20c70fb40": {
+          "type": "image-slide",
+          "settings": {
+            "desktop_slide": "shopify:\/\/shop_images\/Banner_Post_img.jpg",
+            "mobile_slide": "shopify:\/\/shop_images\/WAP_Post_img_7296a240-3b00-4d5d-ac48-5fbd305ce798.jpg",
+            "link": "",
+            "alt": ""
+          }
+        },
+        "0b7b3425-866d-40ff-9498-581ae89e8c86": {
+          "type": "image-slide",
+          "disabled": true,
+          "settings": {
+            "desktop_slide": "shopify:\/\/shop_images\/OOEVD_Subscription_Post_Img-06.jpg",
+            "mobile_slide": "shopify:\/\/shop_images\/OOEVD_Subscription_Post_Img-07.jpg",
+            "link": "shopify:\/\/pages\/subscription",
+            "alt": ""
+          }
+        },
+        "3651ae79-2ace-4bc2-9a9b-c21a6df1e1d3": {
+          "type": "image-slide",
+          "settings": {
+            "desktop_slide": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_Cover_Top_Banner_vW.jpg",
+            "mobile_slide": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_Cover_Top_Banner_vM.jpg",
+            "link": "",
+            "alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "4f2460b0-4273-414d-8fb1-13ab28c8fabc",
+        "f4534c25-babf-4f8b-b890-00c84438b837",
+        "994ab1e5-801a-4801-8ba0-ac41671b5cac",
+        "15f55b0d-ff08-4e6a-bf22-0fd20c70fb40",
+        "0b7b3425-866d-40ff-9498-581ae89e8c86",
+        "3651ae79-2ace-4bc2-9a9b-c21a6df1e1d3"
+      ],
+      "settings": {
+        "autoplay": true,
+        "duration": "6000",
+        "effect": "fade"
+      }
+    },
+    "1636355981cd93d093": {
+      "type": "rich-text",
+      "blocks": {
+        "1636355981cd93d093-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "有得揀！首創網上散裝口罩自選商店！",
+            "heading_size": "h2",
+            "heading_color": "#444444",
+            "has_border": false,
+            "border_color": "#444444",
+            "border_padding": 2
+          }
+        },
+        "f5184920-973e-4f24-a68f-739a56777955": {
+          "type": "text",
+          "settings": {
+            "text": "<p>全店三層一次性外科口罩，不分圖案，不論款式，不限數量，全部自選逐款逐個慢慢揀。<br\/><strong>$88任選 20 款    $138任選 40 款<\/strong><\/p>",
+            "text_color": "#444444",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "1636355981cd93d093-0",
+        "f5184920-973e-4f24-a68f-739a56777955"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "background_color": "#fafafa",
+        "wrapper_padding_top": 2,
+        "wrapper_padding_bottom": 0,
+        "full_width": true
+      }
+    },
+    "1644728495a2d0f98d": {
+      "type": "buttons",
+      "blocks": {
+        "5f8bfd83-ab21-4c28-9fc5-d0a5fc746daa": {
+          "type": "button",
+          "settings": {
+            "text": "自選逐個揀 20 款",
+            "link": "shopify:\/\/products\/set-of-20-pick",
+            "text_color": "#ffffff",
+            "button_background_color": "#444444",
+            "horizontal_padding": 2,
+            "vertical_padding": 1,
+            "horizontal_margin": 2,
+            "vertical_margin": 2
+          }
+        },
+        "010583f9-a3d4-459e-b65b-22c85f05c2cc": {
+          "type": "button",
+          "settings": {
+            "text": "自選逐個揀 40 款",
+            "link": "shopify:\/\/products\/set-of-40-pick",
+            "text_color": "#ffffff",
+            "button_background_color": "#444444",
+            "horizontal_padding": 2,
+            "vertical_padding": 1,
+            "horizontal_margin": 2,
+            "vertical_margin": 2
+          }
+        }
+      },
+      "block_order": [
+        "5f8bfd83-ab21-4c28-9fc5-d0a5fc746daa",
+        "010583f9-a3d4-459e-b65b-22c85f05c2cc"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1647049283e082f9d6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "有得㨂！逐個㨂！自選組合",
+        "collection": "buyyourownbundle",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1647058428c0c65bb6": {
+      "type": "slider",
+      "disabled": true,
+      "blocks": {
+        "164705842846d04167-0": {
+          "type": "image-slide",
+          "settings": {
+            "desktop_slide": "shopify:\/\/shop_images\/OOEVD_Banner_20220311_60.jpg",
+            "mobile_slide": "shopify:\/\/shop_images\/OOEVD_Banner_20220311_60__M.jpg",
+            "link": "shopify:\/\/products\/byob-pick-over-60-tier-set",
+            "alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "164705842846d04167-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "duration": "4000",
+        "effect": "slide-left"
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "最多人選擇的熱賣款，可能你都會喜歡",
+        "collection": "fullstyles",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1639904868905fb8c7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "純色經典",
+        "collection": "flat-color-clissic",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "163600561093ed5e26": {
+      "type": "rich-text",
+      "blocks": {
+        "163600561093ed5e26-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "唔想揀！？都係一種選擇",
+            "heading_size": "h2",
+            "heading_color": "#444444",
+            "has_border": false,
+            "border_color": "#444444",
+            "border_padding": 2
+          }
+        },
+        "163600561093ed5e26-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>選擇太多，有時真係好難揀！我們深知香港人的生活繁瑣，要靜下來一個一個慢慢揀，其實真係唔容易。<br\/>所以我們推出另一種選擇方式，<strong>「精選組合」懶人包<\/strong>，你可以簡單一點，10款不同設計任你體驗，任你試。<\/p>",
+            "text_color": "#444444",
+            "link_color": "#9568c6",
+            "has_text_border": false,
+            "text_border_color": "#444444",
+            "text_border_padding": 2
+          }
+        },
+        "163600561093ed5e26-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "精選組合",
+            "button_link": "shopify:\/\/collections\/精選組合-1",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "163600561093ed5e26-0",
+        "163600561093ed5e26-1",
+        "163600561093ed5e26-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#fafafa",
+        "wrapper_padding_top": 4,
+        "wrapper_padding_bottom": 0,
+        "full_width": true
+      }
+    },
+    "1634117765002ead6b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "精選組合-1",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637984844539e15c3": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1637984844e0355a6c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>印花口罩已經成為日常襯衫搭配潮流<br\/>更成為了品牌VI主流應用<br\/>甚至可以為網絡上的KOL、主播、群主、插畫主筆等創造了粉絲互動或變現的工具<\/p><p><strong>客製化訂單只需每款500個起<\/strong><\/p>",
+            "text_color": "#444444",
+            "link_color": "#9568c6",
+            "has_text_border": false,
+            "text_border_color": "#444444",
+            "text_border_padding": 4
+          }
+        },
+        "1637984844e0355a6c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "現在你都可以創作你的專屬口罩",
+            "heading_size": "h2",
+            "heading_color": "#444444",
+            "has_border": false,
+            "border_color": "#444444",
+            "border_padding": 0
+          }
+        },
+        "1637984844e0355a6c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1637984844e0355a6c-1",
+        "1637984844e0355a6c-0",
+        "1637984844e0355a6c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#fafafa",
+        "wrapper_padding_top": 2,
+        "wrapper_padding_bottom": 2,
+        "full_width": true
+      }
+    },
+    "16379858612d74c007": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "8a9d2c88-4799-4388-be53-8e77338fc12f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_Cover_Banner_cropped.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "def19573-4e31-44e4-bd90-f32501341df7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_3-PLY_webuse_946a44cd-0f9d-4ad6-bff6-6958e3788579.jpg",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        },
+        "51d86e64-9d91-494f-94de-aa5c25870352": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OOEVD_Cuxtomized_KF_webuse_f7720b91-6a3d-47ab-8886-060e3b6082ce.jpg",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "8a9d2c88-4799-4388-be53-8e77338fc12f",
+        "def19573-4e31-44e4-bd90-f32501341df7",
+        "51d86e64-9d91-494f-94de-aa5c25870352"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1641696602f4e486bf": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16416966021509f730-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CUXTOMIZE 客製化印花口罩訂製服務",
+            "heading_size": "h2",
+            "heading_color": "#444444",
+            "has_border": false,
+            "border_color": "#444444",
+            "border_padding": 2
+          }
+        },
+        "16416966021509f730-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_color": "#000000",
+            "link_color": "#000000",
+            "has_text_border": false,
+            "text_border_color": "#000000",
+            "text_border_padding": 2
+          }
+        },
+        "16416966021509f730-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "》》暸解更多OOEVD客製《《",
+            "button_link": "shopify:\/\/pages\/customize",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "16416966021509f730-0",
+        "16416966021509f730-1",
+        "16416966021509f730-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#fafafa",
+        "wrapper_padding_top": 2,
+        "wrapper_padding_bottom": 2,
+        "full_width": true
+      }
+    },
+    "1642044571cce98ad2": {
+      "type": "image-with-text",
+      "blocks": {
+        "16420445715a9112a5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gift Card",
+            "heading_color": "#fafafa"
+          }
+        },
+        "16420445715a9112a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>以九折價錢購買禮品卡面額<br\/>❤️❤️ 既可送禮<br\/>❤️❤️ 又可自用<br\/>❤️❤️ 仲要可以與其他優惠同時使用！<br\/><br\/><strong>限時買滿$2000再有85折<\/strong><\/p>"
+          }
+        },
+        "16420445715a9112a5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "馬上購買",
+            "button_link": "shopify:\/\/collections\/giftcard",
+            "button_background_color": "#222222"
+          }
+        }
+      },
+      "block_order": [
+        "16420445715a9112a5-0",
+        "16420445715a9112a5-1",
+        "16420445715a9112a5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_GiftCard_WebUse.jpg",
+        "full_width": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "background_color": "#a6a1b3",
+        "layout": "image_first"
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "玩轉每個細微既選擇",
+            "heading_size": "h2",
+            "heading_color": "#444444",
+            "has_border": false,
+            "border_color": "#444444",
+            "border_padding": 2
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>為香港人帶來的些微既喜悅<br\/><br\/>襯衫戴個靚口罩，天天都有好心情<br\/>boost your mood by outfit of everyday<\/p>",
+            "text_color": "#444444",
+            "link_color": "#9568c6",
+            "has_text_border": false,
+            "text_border_color": "#444444",
+            "text_border_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "background_color": "#fafafa",
+        "wrapper_padding_top": 2,
+        "wrapper_padding_bottom": 2,
+        "full_width": true
+      }
+    },
+    "16470598492cd7c87c": {
+      "type": "image-banner",
+      "blocks": {
+        "1647059849dcb0321c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OOEVD Club!",
+            "heading_size": "medium"
+          }
+        },
+        "1647059849dcb0321c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Be our community members, to get more shopping offer, more engaging, and we are open for more cooperative. OOEVD CLUB! is a  brand new community model. Let’s step in to metaverse, to growth different sell & shop environment with other lads!"
+          }
+        },
+        "1647059849dcb0321c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "JOIN US NOW",
+            "button_link_1": "https:\/\/discord.gg\/CEJDvcz6Aw",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1647059849dcb0321c-0",
+        "1647059849dcb0321c-1",
+        "1647059849dcb0321c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD-Club_1600x900_withLOGO.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/OOEVD-Club_2000x2000_withoutLOGO.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16470615492b98d63a": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "b8b2ea7a-1642-4e79-9534-8db2ed92e1c9": {
+          "type": "shopify:\/\/apps\/shop-instagram-ugc\/blocks\/block.index.instagram\/af4b13c8-5fdf-4065-8045-d1fe22f45f5a",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "0"
+          }
+        }
+      },
+      "block_order": [
+        "b8b2ea7a-1642-4e79-9534-8db2ed92e1c9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "16360098101c739a37",
+    "1636355981cd93d093",
+    "1644728495a2d0f98d",
+    "1647049283e082f9d6",
+    "1647058428c0c65bb6",
+    "featured_products",
+    "1639904868905fb8c7",
+    "163600561093ed5e26",
+    "1634117765002ead6b",
+    "1637984844539e15c3",
+    "16379858612d74c007",
+    "1641696602f4e486bf",
+    "1642044571cce98ad2",
+    "rich_text",
+    "16470598492cd7c87c",
+    "16470615492b98d63a"
+  ]
+}

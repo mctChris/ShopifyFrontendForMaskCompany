@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main-family": {
+      "type": "main-product-subscription-family",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.product.story_highlighted.value }}",
+            "text_style": "body"
+          }
+        },
+        "9e17da59-3db8-4022-ab2e-018c58382f02": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign fontSize = 12 %}\n\n{% if settings.product_id_font_size %}\n\t{% assign fontSize = settings.product_id_font_size %}\n{% endif %}\n\n{% if product.metafields.product.product_id %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"font-size: {{ fontSize }}px\">Pattern ID: <b>{{ product.metafields.product.product_id }}<\/b><\/p>\n{% endif %}"
+          }
+        },
+        "b40836ac-9282-4e61-b103-3ff98380e526": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign fontSize = 12 %}\n\n{% if settings.designer_font_size %}\n\t{% assign fontSize = settings.designer_font_size %}\n{% endif %}\n\n{% if product.metafields.product.designer %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"font-size: {{ fontSize }}px\">Designer: <b>{{ product.metafields.product.designer }}<\/b><\/p>\n{% endif %}"
+          }
+        },
+        "0babcac1-e359-4f47-8ad9-7bbf2af39b27": {
+          "type": "notice",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "9e17da59-3db8-4022-ab2e-018c58382f02",
+        "b40836ac-9282-4e61-b103-3ff98380e526",
+        "0babcac1-e359-4f47-8ad9-7bbf2af39b27",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "其他熱門款式",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16400655979d0e2fe6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "最新推出款式",
+        "collection": "wishtree",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1635301261cf8ece16": {
+      "type": "apps",
+      "blocks": {
+        "dce9dfcc-d99d-45f4-94a7-26ce231cc265": {
+          "type": "shopify:\/\/apps\/shop-instagram-ugc\/blocks\/block.index.instagram\/af4b13c8-5fdf-4065-8045-d1fe22f45f5a",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "2"
+          }
+        }
+      },
+      "block_order": [
+        "dce9dfcc-d99d-45f4-94a7-26ce231cc265"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main-family",
+    "product-recommendations",
+    "16400655979d0e2fe6",
+    "1635301261cf8ece16"
+  ]
+}

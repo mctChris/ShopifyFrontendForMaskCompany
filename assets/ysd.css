@@ -1,0 +1,183 @@
+#appstle_iframe h2,
+.appstle_greeting_header {
+    color: white;
+}
+
+.product-tag,
+.collection-tag {
+    border: .1rem solid rgba(var(--color-foreground),.55);
+    border-radius: 4rem;
+    color: rgb(var(--color-foreground));
+    display: inline-block;
+    margin: .7rem .5rem .2rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    line-height: 1;
+    text-align: center;
+    transition: border var(--duration-short) ease;
+}
+
+.hide {
+    display: none;
+}
+
+.collection .crowdfunder-widget {
+    display: none;
+}
+
+
+.button-group:hover,
+.button--primary:hover {
+    background-color: lightgrey !important;
+}
+
+.button--primary {
+    color: white;
+}
+
+.business-customize {
+    margin-top: 3rem;
+}
+
+.newsletter-form__message:focus-visible {
+    outline: 0px;
+}
+
+.page-top-margin {
+    margin-top: 6rem;
+}
+
+.business-customize {
+    background-color: #2f2c30;
+}
+
+.business-customize table {
+    border: 0.1rem solid;
+}
+
+.business-customize td {
+    border-color: #73617d !important;
+}
+
+:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.multicolumn.background-secondary {
+    padding: 0 !important;
+}
+
+.image-with-text__grid {
+    max-width: 80vh;
+    margin: 0 auto !important;
+}
+
+.swiper-slide {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div:empty {
+    display: block;
+}
+
+.badge { 
+    background-color: #33529a;
+    border-color: #33529a;
+}
+
+.product-tag:hover,
+.collection-tag:hover {
+    border: .1rem solid rgb(var(--color-foreground));    
+}
+
+.collection-tag {
+    padding: 0.5rem 1rem;
+}
+
+.ysdWhatsappApp__sticky-btn {
+    margin-bottom: 0px !important;
+    margin-right: 15px !important;
+}
+
+.ysdWhatsappApp__btn-sticky-top {
+    margin-bottom: 10px !important;
+}
+
+.orange-reminder {
+    font-size: 1.8rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.wishtree-progress-bar-wrapper {
+    border-radius: 4rem;
+    background-color: lightgrey;
+}
+
+.wishtree-progress-bar {
+    background-color: #cc342f;
+    border-radius: 4rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.wishtree-progress-text {
+    margin-top: 0px !important;
+    display: flex;
+    justify-content: end;
+
+}
+
+.wishtree-progress,
+.wishtree-remaining-time {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+@media screen and (min-width: 479px) {
+    .business-order__product__media-wrapper,
+    .business-order__product__info-wrapper {
+        max-width: 50% !important;
+    }    
+}
+
+@media screen and (max-width: 479px) {
+    #launcher-wrapper {
+        height: 45px !important;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .show-desktop {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .show-mobile {
+        display: block !important;
+    }
+}
+
+[class^=BundleSlide_bar-container__] {
+    display: none !important;
+}
+
+.picky-custom-html {
+    display: none !important;
+}

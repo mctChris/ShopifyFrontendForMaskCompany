@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "1635301442581157cb": {
+      "type": "apps",
+      "blocks": {
+        "e58f20ea-54c2-4412-8dd6-5f3ce47eae20": {
+          "type": "shopify:\/\/apps\/shop-instagram-ugc\/blocks\/block.index.instagram\/af4b13c8-5fdf-4065-8045-d1fe22f45f5a",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "1"
+          }
+        }
+      },
+      "block_order": [
+        "e58f20ea-54c2-4412-8dd6-5f3ce47eae20"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1635301442581157cb"
+  ]
+}

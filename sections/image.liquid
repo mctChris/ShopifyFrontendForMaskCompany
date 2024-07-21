@@ -1,0 +1,61 @@
+{% if section.settings.image != blank %}
+
+<div style="background-color: {{ section.settings.background_color }};">
+	<img src="{{ section.settings.image | img_url: "master" }}" alt="" width="100%" class="hide show-desktop">
+
+	{% assign mobileImage = section.settings.image | img_url: "master" %}
+	{% if section.settings.mobile_image != blank %}
+		{% assign mobileImage = section.settings.mobile_image | img_url: "master" %}
+	{% endif %}
+	<img src="{{ mobileImage }}" alt="" width="100%" class="hide show-mobile">
+</div>
+{% endif %}
+
+{% schema %}
+{
+	"name": "Image",
+	"settings": [
+	    {
+	      "type": "image_picker",
+	      "id": "image",
+	      "label": "Image"
+	    },
+	    {
+	      "type": "image_picker",
+	      "id": "mobile_image",
+	      "label": "Mobile image"
+	    },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#000000"
+      },
+	    {
+	      "type": "select",
+	      "id": "position",
+	      "options": [
+	        {
+	          "value": "center",
+	          "label": "Center"
+	        },
+	        {
+	          "value": "left",
+	          "label": "Left"
+	        },
+	        {
+	          "value": "right",
+	          "label": "Right"
+	        }
+	      ],
+	      "default": "center",
+	      "label": "Position"
+	    }           
+	],
+  "presets": [
+    {
+      "name": "Image"
+    }
+  ]	
+}
+{% endschema %}

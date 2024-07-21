@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<!-- style page description section for Business order introduction page -->
+{% if page.id == 92707913960 %}
+<style type="text/css">
+#MainContent p, 
+#MainContent h2,
+#MainContent a,
+#MainContent button {
+  font-weight: 100 !important;
+}  
+
+.business-customize a:hover {
+  color: lightgrey !important;
+}
+
+#shopify-section-template--15425563099368__main .page-width {
+  margin: 0 !important;
+}
+
+#shopify-section-template--15425563099368__main {
+  display: flex;
+  justify-content: center;
+  background-color: #2f2c30;
+}
+
+#shopify-section-template--15425563099368__main a {
+  word-break: break-all;
+  color: #73617d;
+}
+</style>
+{% endif %}
+
+
+<div class="page-width page-width--narrow
+{% unless page.id == 92707913960 %} page-top-margin{% endunless %}
+{% if page.id == 92707913960 %} p-0{% endif %}">
+
+  {% unless page.id == 92707913960  %}
+  <h1 class="main-page-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  {% endunless %}
+
+  <div class="rte {% if page.id == 92707913960 %}business-customize hide{% endif %}">
+    {{ page.content }}
+  </div>
+
+  {% if page.id == 92707913960 %}
+  <script>
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const params = Object.fromEntries(urlSearchParams.entries());  
+  const subscribed = params.customer_posted === 'true' ? true : false;
+  const table = document.querySelector('.business-customize');
+
+  if (subscribed) {
+    table.classList.remove('hide');
+  }
+  </script>
+  {% endif %}  
+
+
+<!--   {% if page.id == 92707913960 %}
+  <script src="{{ 'business-order.js' | asset_url }}" defer="defer"></script>
+  {% endif %} -->
+
+</div>
+
+
+{% schema %}
+{
+  "name": "t:sections.main-page.name",
+  "tag": "section"
+}
+{% endschema %}

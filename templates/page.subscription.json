@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "164143245141105920": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_Layout_v4-A.png",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_400pixW_Layout_v4.png",
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1642641969443943e3": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_Layout_Monthly_Plan_Web_1920pix_ba6af1d5-bfad-4cfc-a68d-9fdf9f4e84d5.png",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_Layout_Monthly_Plan_Wap_900pix_8f442ea1-e99c-414b-a273-aa3663391640.png",
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "16426485055d9e64bb": {
+      "type": "buttons",
+      "blocks": {
+        "3b37ba26-0b59-4182-a65c-9007a43ae6d4": {
+          "type": "button",
+          "settings": {
+            "text": "所有訂閱方案",
+            "link": "shopify:\/\/collections\/subscription",
+            "text_color": "#ffffff",
+            "button_background_color": "#8284b0",
+            "horizontal_padding": 4,
+            "vertical_padding": 1,
+            "horizontal_margin": 1,
+            "vertical_margin": 2
+          }
+        }
+      },
+      "block_order": [
+        "3b37ba26-0b59-4182-a65c-9007a43ae6d4"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1642648620136c0175": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_A-Plan_Web_Tittle_1920pix_59f5f60e-8794-4283-a40e-03200fed872a.png",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_A-Plan_Wap_Tittle_900pix_63c72667-e1af-4fe2-855e-b10396d64403.png",
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1641705524a1ada3b2": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_Layout_v2-03_1920pix.png",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_Layout_v2-04_900pix_a052e26b-c078-451f-8051-52117ba8d0c4.png",
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1641448044c9f490d8": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1641448044a81fe6c7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_v3.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641448044a81fe6c7-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_color": "#fafafa",
+        "background_color": "#fafafa",
+        "slider_pagination_color": "#fafafa",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "https:\/\/api.whatsapp.com\/send\/?phone=85237517449&text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E5%B0%8D%E4%BD%A0%E5%80%91%E7%9A%84%E5%80%8B%E4%BA%BA%E5%B9%B4%E8%A8%82%E7%94%A2%E5%93%81%E6%84%9F%E8%88%88%E8%B6%A3%EF%BC%8C%E5%B8%8C%E6%9C%9B%E6%9F%A5%E8%A9%A2%E6%9B%B4%E5%A4%9A%E8%B3%87%E6%96%99%E3%80%82&app_absent=0",
+        "swipe_on_mobile": false
+      }
+    },
+    "1641371713f18b6332": {
+      "type": "buttons",
+      "blocks": {
+        "7d05e506-7aec-4793-bbb8-41b06f9054cc": {
+          "type": "button",
+          "settings": {
+            "text": "領取優惠碼",
+            "link": "https:\/\/api.whatsapp.com\/send\/?phone=85237517449&text=%E4%BF%82%E5%92%AA%E5%8F%AF%E4%BB%A5%E9%A0%98%E5%8F%96%E3%80%8COutfit%E5%A5%BD%E5%BF%83%E6%83%85%EF%BD%9C%E5%80%8B%E4%BA%BA%E5%B9%B4%E8%A8%82%E5%8C%85%E9%83%B5%E6%96%B9%E6%A1%88%E3%80%8D%E7%9A%84%E6%B8%9B$400%E5%84%AA%E6%83%A0%E7%A2%BC%EF%BC%9F",
+            "text_color": "#ffffff",
+            "button_background_color": "#edafd8",
+            "horizontal_padding": 4,
+            "vertical_padding": 1,
+            "horizontal_margin": 2,
+            "vertical_margin": 2
+          }
+        },
+        "bdce0401-b6cd-4450-a2c3-63a2e5b40e50": {
+          "type": "button",
+          "settings": {
+            "text": "馬上訂購",
+            "link": "shopify:\/\/products\/annualplan",
+            "text_color": "#ffffff",
+            "button_background_color": "#8284b0",
+            "horizontal_padding": 5,
+            "vertical_padding": 1,
+            "horizontal_margin": 2,
+            "vertical_margin": 2
+          }
+        }
+      },
+      "block_order": [
+        "7d05e506-7aec-4793-bbb8-41b06f9054cc",
+        "bdce0401-b6cd-4450-a2c3-63a2e5b40e50"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1641432668607bfada": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_Layout_v3-01-B_1920pix.png",
+        "mobile_image": "shopify:\/\/shop_images\/OOEVD_Subscription_Plan_Page_400pixW_Layout_v3-02.png",
+        "background_color": "#fafafa",
+        "position": "center"
+      }
+    },
+    "1635301442581157cb": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164143245141105920",
+    "1642641969443943e3",
+    "16426485055d9e64bb",
+    "1642648620136c0175",
+    "1641705524a1ada3b2",
+    "1641448044c9f490d8",
+    "1641371713f18b6332",
+    "1641432668607bfada",
+    "1635301442581157cb"
+  ]
+}

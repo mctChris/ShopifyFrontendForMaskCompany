@@ -1,0 +1,96 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "16348893853a4ae006": {
+      "type": "multicolumn",
+      "blocks": {
+        "16348893853a4ae006-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16348893853a4ae006-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16348893853a4ae006-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "7b590efe-c92c-4858-b9a3-177ea166bcef": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "07fc9e95-a559-4530-bc26-388bb3ecaffa": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "9de10165-9b6c-4020-99ad-1365d586d53e": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16348893853a4ae006-0",
+        "16348893853a4ae006-1",
+        "16348893853a4ae006-2",
+        "7b590efe-c92c-4858-b9a3-177ea166bcef",
+        "07fc9e95-a559-4530-bc26-388bb3ecaffa",
+        "9de10165-9b6c-4020-99ad-1365d586d53e"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163530151493bd6349": {
+      "type": "apps",
+      "blocks": {
+        "73c76498-e949-427f-aea4-89a6bca56ecd": {
+          "type": "shopify:\/\/apps\/shop-instagram-ugc\/blocks\/block.index.instagram\/af4b13c8-5fdf-4065-8045-d1fe22f45f5a",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "1"
+          }
+        }
+      },
+      "block_order": [
+        "73c76498-e949-427f-aea4-89a6bca56ecd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16348893853a4ae006",
+    "163530151493bd6349"
+  ]
+}

@@ -1,0 +1,386 @@
+<style type="text/css">@import url("https://unpkg.com/swiper@7.2.0/swiper-bundle.min.css");</style>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+
+    {% for block in section.blocks %}
+    <script>console.log({{ block.type | json }})</script>
+
+      {% if block.type == 'image-slide' %}
+      <div class="swiper-slide image-slide" {{ block.shopify_attributes }}>
+        {% if block.settings.link %}
+          <a href="{{ block.settings.link }}">
+        {% endif %}
+
+            {% if block.settings.mobile_slide %}
+              {% assign mobileSlide = block.settings.mobile_slide | img_url: 'master' %}
+            {% else %}
+              {% assign mobileSlide = block.settings.desktop_slide | img_url: 'master' %}
+            {% endif %}
+
+            <style type="text/css">
+              .slide-bg-image-{{ forloop.index }} {
+                background-image: url(https:{{ block.settings.desktop_slide | img_url:  'master' }});
+                background-size: cover;
+
+                width: 100%;
+                height: 500px;
+
+              }
+
+              @media screen and (max-width: 768px) {
+                .slide-bg-image-{{ forloop.index }} {
+                  height: 50vh;
+                  min-height: auto;
+                  background-size: cover;
+                }                
+              }
+
+              @media screen and (max-width: 479px) {
+                .slide-bg-image-{{ forloop.index }} {
+                  background-image: url(https:{{ mobileSlide }});
+                  height: 50vh;
+                  min-height: auto;
+                  background-size: cover;
+                }
+              }
+
+
+            </style>
+
+            <div class="slide-bg-image slide-bg-image-{{ forloop.index }}" alt="{{ block.settings.alt }}"></div>
+
+        {% if block.settings.link %}
+          </a>
+        {% endif %}
+
+      </div>
+      {% endif %}
+
+
+      {% if block.type == 'video-slide' %}
+      <style>
+      .video-slide-{{ forloop.index }},
+      .swiper-video-{{ forloop.index }} {
+        height: 500px !important;
+      }
+
+      .swiper-video-{{ forloop.index }} {
+        width: 100%;
+        object-fit: cover;
+      }
+        
+      @media screen and (max-width: 768px) {
+        .video-slide-{{ forloop.index }},
+        .swiper-video-{{ forloop.index }} {
+          height: 50vh !important;
+        }
+      }
+      </style>
+
+
+
+      <div class="swiper-slide video-slide video-slide-{{ forloop.index }}" {{ block.shopify_attributes }}>
+        {% if block.settings.video_url != blank %}
+        <video class="slide-video swiper-video-{{ forloop.index }}" {% if block.settings.video_autoplay %}autoplay muted playsinline{% else %}controls{% endif %}>
+          <source src="{{ block.settings.video_url }}" type="video/mp4">
+        </video>
+        {% endif %}
+      </div>
+      {% endif %}
+
+
+    {% endfor %}
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<style>
+.swiper {
+  width: 100%;
+}
+
+.slide-bg-image {
+  display: block !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.swiper-pagination-bullet-active {
+  background: black;
+}
+
+.swiper-slide {
+  height: 500px;
+}      
+
+</style>
+
+<script>
+sliderInit();
+
+if (Shopify.designMode) {
+  document.addEventListener('shopify:section:load', function() {
+    sliderInit();
+  })
+}
+
+function sliderInit() {
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    autoHeight: true,
+
+    {% if section.settings.autoplay %}
+    autoplay: {
+      delay: {{ section.settings.duration }}
+    },
+    {% endif %}
+
+    {% if section.settings.effect == 'fade' %}
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },    
+    {% endif %}
+
+    {% if section.settings.effect == 'coverflow' %}
+    effect: 'coverflow',
+    coverflowEffect: {
+      rotate: 30,
+      slideShadows: false,
+    },
+    {% endif %}
+
+    {% if section.settings.effect == 'flip' %}
+    effect: 'flip',
+    flipEffect: {
+      slideShadows: false,
+    },    
+    {% endif %}
+
+    {% if section.settings.effect == 'cube' %}
+    effect: 'cube',
+    cubeEffect: {
+      slideShadows: false,
+    },    
+    {% endif %}
+
+    {% if section.settings.effect == 'card' %}
+    effect: 'cards',
+    cardsEffect: {
+      // ...
+    },    
+    {% endif %}
+
+    {% if section.settings.effect == 'creative' %}
+    effect: 'creative',
+    creativeEffect: {
+      prev: {
+        // will set `translateZ(-400px)` on previous slides
+        translate: [0, 0, -400],
+      },
+      next: {
+        // will set `translateX(100%)` on next slides
+        translate: ['100%', 0, 0],
+      },
+    },    
+    {% endif %}            
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    }
+  });
+
+  const hasVideo = document.querySelectorAll('.slide-video').length > 0;
+  if (hasVideo) {
+    // init video on page load
+    videoInit(swiper);
+
+    // init video on slide change
+    swiper.on('slideChange', function () {
+      videoInit(swiper);
+    });    
+  }
+
+
+}
+
+function videoInit(slider) {
+  // stop all videos when slide changes
+  var slideVideos = document.querySelectorAll('.slide-video');
+  slideVideos.forEach(v => v.pause());
+
+  // if current slide is video and has autoplay, play
+  setTimeout(function() {
+    var hasAutoplayVideo = document.querySelectorAll('.swiper-slide-active video[autoplay]').length > 0;
+    if (!hasAutoplayVideo) return;
+
+    // if (hasAutoplayVideo) {
+    var video = document.querySelector('.swiper-slide-active video[autoplay]');
+    var autoplayStateBefore = slider.autoplay.running;
+
+    slider.autoplay.stop();
+    video.play();
+
+    video.addEventListener('ended', function() {
+      // jump to next slide when video ends
+      slider.slideNext();
+
+      // if autoplay is on, start autoplay 
+      if (autoplayStateBefore) {
+        slider.autoplay.start();
+      }
+    }, { once: true })
+  }, 0);  
+}
+</script>
+
+{% schema %}
+{
+    "name": "Slider",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Autoplay"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Enable autoplay",
+        "default": false
+      },
+      {
+          "type": "select",
+          "id": "duration",
+          "label": "Delay between transition",
+          "options": [
+            {
+              "value": "2000",
+              "label": "2 seconds"
+            },          
+            {
+              "value": "3000",
+              "label": "3 seconds"
+            },
+            {
+              "value": "4000",
+              "label": "4 seconds"
+            },            
+            {
+              "value": "5000",
+              "label": "5 seconds"
+            },
+            {
+              "value": "6000",
+              "label": "6 seconds"
+            }
+          ],
+          "default": "4000"
+      },
+      {
+        "type": "header",
+        "content": "Effect"
+      },
+      {
+          "type": "select",
+          "id": "effect",
+          "label": "Slider effect",
+          "options": [
+            {
+              "value": "slide-left",
+              "label": "Slide left"
+            },           
+            {
+              "value": "fade",
+              "label": "Fade"
+            },          
+            {
+              "value": "coverflow",
+              "label": "Coverflow"
+            },
+            {
+              "value": "flip",
+              "label": "Flip"
+            },            
+            {
+              "value": "cube",
+              "label": "Cube"
+            },
+            {
+              "value": "card",
+              "label": "Card"
+            },
+            {
+              "value": "creative",
+              "label": "Creative"
+            }            
+          ],
+          "default": "slide-left"
+      }      
+    ],
+    "blocks": [
+        {
+            "name": "Image slide",
+            "type": "image-slide",
+            "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "desktop_slide",
+                  "label": "Desktop slide"
+                },
+                {
+                  "type": "image_picker",
+                  "id": "mobile_slide",
+                  "label": "Mobile slide"
+                },
+                {
+                  "type": "url",
+                  "id": "link",
+                  "label": "Link"
+                },
+                {
+                  "type": "text",
+                  "id": "alt",
+                  "label": "Alt text"
+                }                  
+            ]
+        },
+        {
+          "name": "Video slide",
+          "type": "video-slide",
+          "settings": [
+            {
+              "type": "text",
+              "id": "video_url",
+              "label": "Video url",
+              "info": "Upload the video in [Files](https://ooevd-shop.myshopify.com/admin/settings/files), and insert that video link in here."
+            },
+            {
+              "type": "checkbox",
+              "id": "video_autoplay",
+              "label": "Autoplay",
+              "default": true
+            }            
+          ]
+        } 
+    ],
+    "presets": [
+        {
+          "name": "Slider",
+          "blocks": [
+            {
+              "type": "image-slide"
+            }
+          ]
+        }
+    ]    
+}
+{% endschema %}
